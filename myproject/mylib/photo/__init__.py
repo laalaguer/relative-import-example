@@ -1,0 +1,2 @@
+print '>> in photo package'
+
