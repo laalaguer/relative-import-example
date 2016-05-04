@@ -1,7 +1,7 @@
 print '__name__:',__name__
 
 import mylib.photo.action
-# If you are now inside '/test' folder and tries to execute 'python myapp.py'
+# If you are now inside '/myproject' folder and tries to execute 'python myapp.py'
 # The output is like this:
 #
 # __name__: __main__
