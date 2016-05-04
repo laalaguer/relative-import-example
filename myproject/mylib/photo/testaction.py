@@ -1,7 +1,7 @@
 print '__name__:', __name__
 
 import action
-# If you go back to top directory /test, and execute command 'python -m mylib.photo.testaction'
+# If you go back to top directory /myproject, and execute command 'python -m mylib.photo.testaction'
 # things go well as the output will be:
 # >> in mylib package
 # >> in photo package
@@ -38,7 +38,7 @@ import action
 # __name__: mylib.user.libofuser
 
 # However:
-# If you change into this directory /test/mylib/photo
+# If you change into this directory /myproject/mylib/photo
 # and execute the command 'python testaction.py'
 # Then things go wrong, out put is:
 # __name__: __main__
